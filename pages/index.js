@@ -41,6 +41,7 @@ export default function Home() {
 
         <div className={styles.center}>
           <Image
+          
             className={styles.logo}
             src="/next.svg"
             alt="Next.js Logo"
