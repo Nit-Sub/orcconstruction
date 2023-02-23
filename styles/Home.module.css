@@ -5,6 +5,9 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: url("../public/static/backgroundimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .description {
