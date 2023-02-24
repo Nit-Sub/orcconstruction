@@ -65,7 +65,7 @@ const CoreValues = () => {
             </div>
             
         </div>
-        <br/>
+        
         <div className={styles.row}>
 
             <div className={styles.column}>
