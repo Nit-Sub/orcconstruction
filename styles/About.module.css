@@ -16,8 +16,12 @@
 .p{
   color: white;
   text-align: left;
+  font-family: 'Didact Gothic', sans-serif;
   
   
+}
+.trophy{
+    color: white;
 }
 
 
@@ -39,6 +43,21 @@
   margin-left: -14px;
 
 }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
 
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+  }
 
  
