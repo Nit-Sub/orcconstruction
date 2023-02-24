@@ -11,6 +11,7 @@ import sign from "../public/static/sign.svg";
 import about2 from '../public/static/about2.jpg';
 import about3 from '../public/static/about3.jpg';
 import Team from '@/components/Team';
+import CoreValues from '@/components/CoreValues';
 
 
 
@@ -78,6 +79,8 @@ const about = () => {
         < hr className={styles.hrcolor}/>
         <h4 className={styles.team} >Expert Worker</h4>
         <Team/>
+        < hr className={styles.hrcolor}/>
+        <CoreValues/>
         <div className={styles.row}>
       A
           

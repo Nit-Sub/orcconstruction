@@ -1,0 +1,28 @@
+.p{
+    color: white;
+    margin-top: 10px;
+}
+.h3{
+    color: white;
+}
+
+.span{
+    color: orange;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+  }
+  
