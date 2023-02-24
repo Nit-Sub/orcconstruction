@@ -20,7 +20,7 @@ const First = () => {
         <Navbar.Collapse id="basic-navbar-nav" className='float-left'>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/home">About</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#home">Services</Nav.Link>
             <Nav.Link href="#link">Project</Nav.Link>
             <Nav.Link href="#home">Pages</Nav.Link>

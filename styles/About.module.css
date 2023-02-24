@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url("../public/static/backgroundimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.p{
+  color: white;
+  text-align: left;
+  
+  
+}
+
+
+
+.p:before{
+  content:" ";
+  height: 2px;
+  width: 90px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.h1{
+  color: white;
+  margin-top: 10px;
+  
+  margin-left: -14px;
+
+}
+
+
+ 
