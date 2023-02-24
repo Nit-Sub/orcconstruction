@@ -43,6 +43,11 @@ const about = () => {
           <Image className={styles.img} src={about1} width={450}  alt="About" />
           </div>
         </div>
+        <div className={styles.row}>
+          <div className={styles.column}>A</div>
+          <div className={styles.column}>B</div>
+          
+        </div>
 
       </main>
       
