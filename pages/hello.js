@@ -3,7 +3,7 @@ import First from '@/components/first';
 
 const hello = () => {
   return (
-    <>
+    <> 
     <First/>
     </>
   )

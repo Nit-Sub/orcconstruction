@@ -4,17 +4,23 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+
 const First = () => {
   return (
     <>
-    <Navbar bg="" expand="lg">
-      <Container>
+    
+    
+
+
+
+    <Navbar bg="dark" expand="lg" variant="dark">
+      <Container >
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="navbarScroll" className='right-side'/>
+        <Navbar.Collapse id="basic-navbar-nav" className='float-left'>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/home">About</Nav.Link>
             <Nav.Link href="#home">Services</Nav.Link>
             <Nav.Link href="#link">Project</Nav.Link>
             <Nav.Link href="#home">Pages</Nav.Link>
@@ -26,6 +32,7 @@ const First = () => {
     </Navbar>
     </>
   )
+ 
 }
 
 export default First;

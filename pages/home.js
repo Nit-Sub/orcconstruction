@@ -1,7 +1,10 @@
-import styles from '@/styles/First.module.css'
+import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
-import norc from '../public/static/logo.png'
+import logo from '../public/static/logo.png'
+import First from '@/components/first'
+import Button from 'react-bootstrap/Button';
+
 
 const Home = () => {
   return (<>
@@ -11,16 +14,25 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" /> */}
       </Head>
+
+      <First/>
       <main className={styles.main}>
+      <Image  className={styles.image} src={logo} alt="Logo" />
         <div className={styles.description}>
+          
         {/* <img src={norc} alt="text"/> */}
-        <p>Architecture Design</p>
+        <p className={styles.p} >Architecture Design</p>
+        <h1 className={styles.h1}>We Build Great Projects</h1>
+        <p className={styles.p}>Our 25 years working experience make a different construction building.<br/> 
+          Viverra tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana setlie.</p>
+          <Button size="lg"variant="outline-warning" className={styles.button}>Our Project</Button>
+          <Button size="lg"variant="outline-warning" className={styles.button}>Our Services</Button>
          </div>
-         
+         <div>
+          
+         </div>
       </main>
-      <div>
       
-      </div>
       
       </>
   )
