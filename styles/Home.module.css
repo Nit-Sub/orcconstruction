@@ -35,7 +35,11 @@
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: -14px;
+  text-shadow: 2px 2px 5px;
 
+}
+.span{
+  color: gray;
 }
 .button{
   margin-left: 20px;

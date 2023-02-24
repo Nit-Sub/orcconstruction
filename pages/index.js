@@ -26,7 +26,7 @@ export default function Home() {
           
         {/* <img src={norc} alt="text"/> */}
         <p className={styles.p} >Architecture Design</p>
-        <h1 className={styles.h1}>We Build Great Projects</h1>
+        <h1 className={styles.h1}>We Build <span className={styles.span}>Great Projects </span></h1>
         <p className={styles.p}>Our 25 years working experience make a different construction building.<br/> 
           Viverra tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana setlie.</p>
           <Button size="lg"variant="outline-warning" className={styles.button}>Our Project</Button>

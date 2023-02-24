@@ -27,7 +27,9 @@
         border-radius: 10%; 
         margin-top: -60px;
 }
-
+.sign{
+  margin-top: -60px;  
+}
 
 .p:before{
   content:" ";
@@ -42,9 +44,16 @@
 .h1{
   color: white;
   margin-top: 10px;
-  
+  text-shadow: 2px 2px 5px;
   margin-left: -14px;
 
+}
+.team{
+    text-shadow: 2px 2px 5px;
+    color: white;
+}
+.span{
+    color: orange;
 }
 .row {
     display: flex;
@@ -54,6 +63,9 @@
     color: white;
 
   }
+  .hrcolor{
+    color: white;
+  }
   
   .column {
     display: flex;
@@ -61,6 +73,10 @@
     flex-basis: 100%;
     flex: 1;
     color: white;
+  }
+  .img2{
+    border-radius: 10%; 
+
   }
 
  

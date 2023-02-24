@@ -7,6 +7,10 @@ import logo from "../public/static/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import about1 from '../public/static/about1.jpg'
+import sign from "../public/static/sign.svg";
+import about2 from '../public/static/about2.jpg';
+import about3 from '../public/static/about3.jpg';
+import Team from '@/components/Team';
 
 
 
@@ -30,6 +34,7 @@ const about = () => {
         </div>
         <div className={styles.row}>
           <div className={styles.column} >
+          <hr/>
             <h5>Leading Way In Building & Civil Construction!</h5>
             <p className={styles.p}>Our company at libero tristique mattis. Suspendisse 
               potenti sed leonra main dignissim justo porta eget.
@@ -40,14 +45,52 @@ const about = () => {
             <hr/>
           </div>
           <div className={styles.column}>
-          <Image className={styles.img} src={about1} width={450}  alt="About" />
+          <Image className={styles.img} src={about1} width={450}  alt="About1" />
           </div>
         </div>
+        <Image className={styles.sign} src={sign} width={50}/>
+        <h5>Enrico Martin</h5>
+        <p>CEO & Founder</p>
+        < hr className={styles.hrcolor}/>
         <div className={styles.row}>
-          <div className={styles.column}>A</div>
-          <div className={styles.column}>B</div>
+        
+          <div className={styles.column}>
+          <Image className={styles.img2} src={about2} width={450}  alt="About2" />
+          <br/>
+          <h3>The story of how </h3>
+          <h6><span className={styles.span}>norc company   </span> 
+          was founded</h6>
+          <p>Build quis efficitur lacus sulvinar posuere augue eduis euro vesatien arcuman onteger 
+            leo nisl auctor ac aliquam asus nuis risus maecenas vitae tellus massa aselus.</p>
+          </div>
+          <div className={styles.column}>
+            <h4>Leading Way In </h4>
+            <span className={styles.span}>Building & Civil Construction!</span>
+            <p>
+            Nulla quis efficitur lacus sulvinar posuere augue eduis euro vesatien arcuman onteger leo nisl 
+            auctor ac aliquam a placerat quis risus maecenas vitae tellus massa aselus faucibu in haretra.
+            </p>
+          <Image className={styles.img2} src={about3} width={500}  alt="About3" />
+            
+          </div>
           
         </div>
+        < hr className={styles.hrcolor}/>
+        <h4 className={styles.team} >Expert Worker</h4>
+        <Team/>
+        <div className={styles.row}>
+      A
+          
+          <div className={styles.column}>
+ 
+            
+          </div>
+          <div className={styles.column}>
+            B
+          </div>
+          
+        </div>
+
 
       </main>
       
