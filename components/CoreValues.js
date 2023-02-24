@@ -26,8 +26,7 @@ const CoreValues = () => {
                             Safety will always come first as we strive for accident-free projects.
                             Fusce tincidunt nis ace park norttito amet space.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                       
                     </Card.Body>
                 </Card>
             </div>
@@ -43,8 +42,7 @@ const CoreValues = () => {
                             Nulla quis effi vivento acus suvina sene in atue eduis eu
                             ro vesatien arcum the onte nisl auctor a menas vitae.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                       
                     </Card.Body>
                 </Card>
             </div>
@@ -60,8 +58,7 @@ const CoreValues = () => {
                             Nulla quis effi vivento acus suvina sene in atue eduis eu
                             ro vesatien arcum the onte nisl auctor a menas vitae.
                         </Card.Text>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                       
                     </Card.Body>
                 </Card>
 
