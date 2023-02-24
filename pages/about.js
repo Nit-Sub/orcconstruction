@@ -81,19 +81,9 @@ const about = () => {
         <Team/>
         < hr className={styles.hrcolor}/>
         <CoreValues/>
-        <div className={styles.row}>
-      A
-          
-          <div className={styles.column}>
- 
-            
-          </div>
-          <div className={styles.column}>
-            B
-          </div>
-          
-        </div>
+        < hr className={styles.hrcolor}/>
 
+       
 
       </main>
       

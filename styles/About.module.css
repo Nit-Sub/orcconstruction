@@ -61,6 +61,7 @@
     flex-wrap: wrap;
     width: 100%;
     color: white;
+   
 
   }
   .hrcolor{
@@ -73,7 +74,8 @@
     flex-basis: 100%;
     flex: 1;
     color: white;
-  }
+    
+     }
   .img2{
     border-radius: 10%; 
 
