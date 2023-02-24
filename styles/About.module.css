@@ -23,7 +23,10 @@
 .trophy{
     color: white;
 }
-
+.img{
+        border-radius: 10%; 
+        margin-top: -50px;
+}
 
 
 .p:before{

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import logo from "../public/static/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
+import about1 from '../public/static/about1.jpg'
 
 
 
@@ -38,7 +39,9 @@ const about = () => {
             <p>   <FontAwesomeIcon icon={faTrophy} /> Exceptional work quality</p>
             <hr/>
           </div>
-          <div className={styles.column}>B</div>
+          <div className={styles.column}>
+          <Image className={styles.img} src={about1} width={450}  alt="About" />
+          </div>
         </div>
 
       </main>
