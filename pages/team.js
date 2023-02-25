@@ -6,6 +6,7 @@ import First from '@/components/First';
 import styles from '@/styles/PageTeam.module.css'
 import PageTeam from '@/components/PageTeam';
 
+
 const team = () => {
   return (
     <>

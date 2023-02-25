@@ -12,6 +12,7 @@ import about2 from '../public/static/about2.jpg';
 import about3 from '../public/static/about3.jpg';
 import Team from '@/components/Team';
 import CoreValues from '@/components/CoreValues';
+import ContactUs from '@/components/ContactUs';
 
 
 
@@ -81,6 +82,7 @@ const about = () => {
         <Team/>
         < hr className={styles.hrcolor}/>
         <CoreValues/>
+        <ContactUs/>
         < hr className={styles.hrcolor}/>
 
        

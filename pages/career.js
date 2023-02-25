@@ -4,6 +4,7 @@ import First from '@/components/First';
 import styles from '@/styles/Career.module.css';
 import logo from '@/public/static/logo.png';
 import Image from 'next/image';
+import ContactUs from '@/components/ContactUs';
 
 const career = () => {
   return (
@@ -63,6 +64,8 @@ const career = () => {
           </div>
         </div>
         <p>Please submit a resume and cover letter with compensation history to  <span style={{color:'orange'}}>info@Construction.test.com</span></p>
+        <hr />
+      <ContactUs/>
       </main>
 
     </>

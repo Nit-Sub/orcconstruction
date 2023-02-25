@@ -6,6 +6,7 @@ import styles from '@/styles/Services.module.css';
 import Image from 'next/image';
 import logo from "../public/static/logo.png"
 import CoreValues from '@/components/CoreValues';
+import ContactUs from '@/components/ContactUs';
 
 const services = () => {
   return (
@@ -28,6 +29,7 @@ const services = () => {
           
           < hr className={styles.hrcolor}/>
           <CoreValues/>
+          <ContactUs/>
           
           </div>
 

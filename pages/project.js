@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fa1 } from '@fortawesome/free-solid-svg-icons';
 import { fa2 } from '@fortawesome/free-solid-svg-icons';
 import { fa3 } from '@fortawesome/free-solid-svg-icons';
+import ContactUs from '@/components/ContactUs';
 const project = () => {
     return (
         <>
@@ -52,6 +53,7 @@ const project = () => {
                     <p className={styles.psmall}><FontAwesomeIcon icon={fa2} className={styles.font} /> Duisteyerionyer venenatis lacus gravida eros ut turpis interdum.</p>
                     <p className={styles.psmall}><FontAwesomeIcon icon={fa3} className={styles.font} /> Duisteyerionyer venenatis lacus gravida eros ut turpis interdum.</p>
                     <hr className={styles.hrfull} />
+                    <ContactUs/>
 
 
 

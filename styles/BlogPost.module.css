@@ -55,11 +55,26 @@
     display: flex;
 
 }
+.postimg{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
 
 .p{
     color: white;
     margin-top: 15px;
 }
+
+.post{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+  }
+  .postp{
+    margin-left: 10px;
+  }
 
 .p:before{
     content:" ";

@@ -6,6 +6,7 @@ import First from '@/components/first';
 import Image from 'next/image';
 import logo from "../public/static/logo.png"
 import Button from 'react-bootstrap/Button';
+import ContactUs from '@/components/ContactUs';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,10 +33,12 @@ export default function Home() {
           <Button size="lg"variant="outline-warning" className={styles.button} href="/project">Our Project</Button>
           <Button size="lg"variant="outline-warning" className={styles.button} href="/services">Our Services</Button>
          </div>
-         <div>
-          
-         </div>
+         
+         
+         
+         
       </main>
+      
     </>
   )
 }
