@@ -2,7 +2,10 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+
+import NavDropdown from 'react-bootstrap/NavDropdown'
 
 
 const First = () => {
@@ -23,7 +26,12 @@ const First = () => {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/project">Project</Nav.Link>
-            <Nav.Link href="#home">Pages</Nav.Link>
+            <NavDropdown title="Page" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/team" >Team</NavDropdown.Item>
+              <NavDropdown.Item href="/career" >
+                Career
+              </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="#link">Blog</Nav.Link>
             <Nav.Link href="#home">Contact</Nav.Link>
             </Nav>
