@@ -32,7 +32,12 @@ const First = () => {
                 Career
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Blog</Nav.Link>
+            <NavDropdown title="Blog" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/blog01" >Blog01</NavDropdown.Item>
+              <NavDropdown.Item href="/blogpost" >
+                Blog post
+              </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="#home">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>

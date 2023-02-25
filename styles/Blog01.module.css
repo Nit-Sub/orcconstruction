@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url("../public/static/backgroundimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.image{
+    width: 350px;
+    height: 50px;
+    border:2px solid white;
+    box-shadow: 2px 2px 2px white;
+    
+}
