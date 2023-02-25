@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url("../public/static/backgroundimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.body{
+    color: white;
+}
+.logo{
+    margin-top: -70px;
+}
+.p{
+    margin-top: -460px;
+}
+.p:before{
+    content:" ";
+    height: 2px;
+    width: 90px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 0;
+  }
+  .p:after{
+    content:" ";
+    height: 2px;
+    width: 90px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 200px;
+  }
