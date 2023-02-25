@@ -22,7 +22,7 @@ const First = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="#link">Project</Nav.Link>
+            <Nav.Link href="/project">Project</Nav.Link>
             <Nav.Link href="#home">Pages</Nav.Link>
             <Nav.Link href="#link">Blog</Nav.Link>
             <Nav.Link href="#home">Contact</Nav.Link>
