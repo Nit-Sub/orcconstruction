@@ -9,7 +9,19 @@ const ServicesCard = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <Image src={image1} alt="ServiceCardImage" />
+        <Image src={image1} alt="ServiceCardImage" className={styles.img}/>
+        <div className={styles.intro}>
+          <h4>Project Planning</h4>
+
+          <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p>
+        </div>
+        <Image src={image2} alt="ServiceCardImage" className={styles.img}/>
+        <div className={styles.intro}>
+          <h4>Project Planning</h4>
+
+          <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p>
+        </div>
+        <Image src={image3} alt="ServiceCardImage" className={styles.img}/>
         <div className={styles.intro}>
           <h4>Project Planning</h4>
 
