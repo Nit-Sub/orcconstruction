@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     
 
+
 }
 .p{
     color: white;
@@ -21,6 +22,11 @@
     color: white;
     margin-left: 70px;
     
+}
+.font{
+    color: orange;
+    font-size: 20px;
+    margin-right: 10px;
 }
 .h1{
     margin-left: 70px;
@@ -34,3 +40,33 @@
     height: 5px;
     width: 500px;
   }
+  .hrfull{
+    color: white;
+    
+  }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+   
+
+  }
+ 
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+    
+     }
+
+.image{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    
+}
