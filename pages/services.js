@@ -23,6 +23,7 @@ const services = () => {
           <h6 className={styles.h6}>What We Do</h6>
           <h1 className={styles.h1}>Our  <span className={styles.span}>Services</span></h1>
           < hr className={styles.hrcolor}/>
+          <ServicesCard/>
           
           </div>
 
