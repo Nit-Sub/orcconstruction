@@ -30,7 +30,7 @@ export default function Home() {
         <p className={styles.p}>Our 25 years working experience make a different construction building.<br/> 
           Viverra tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana setlie.</p>
           <Button size="lg"variant="outline-warning" className={styles.button}>Our Project</Button>
-          <Button size="lg"variant="outline-warning" className={styles.button}>Our Services</Button>
+          <Button size="lg"variant="outline-warning" className={styles.button} href="/services">Our Services</Button>
          </div>
          <div>
           

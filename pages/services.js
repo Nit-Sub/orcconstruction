@@ -5,6 +5,7 @@ import First from '@/components/First';
 import styles from '@/styles/Services.module.css';
 import Image from 'next/image';
 import logo from "../public/static/logo.png"
+import CoreValues from '@/components/CoreValues';
 
 const services = () => {
   return (
@@ -24,6 +25,9 @@ const services = () => {
           <h1 className={styles.h1}>Our  <span className={styles.span}>Services</span></h1>
           < hr className={styles.hrcolor}/>
           <ServicesCard/>
+          
+          < hr className={styles.hrcolor}/>
+          <CoreValues/>
           
           </div>
 
