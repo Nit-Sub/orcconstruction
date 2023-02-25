@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url("../public/static/backgroundimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.image{
+    width: 350px;
+    height: 50px;
+    
+}
+.h6{
+    color: white;
+    margin-top: 15px;
+}
+
+.h6:before{
+    content:" ";
+    height: 2px;
+    width: 45px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 50px;
+  }
+  .h6:after{
+    content:" ";
+    height: 2px;
+    width: 45px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 190px;
+  }
+
+  .h1{
+    text-shadow: 10px 10px 10px;
+    color: white;
+  }
+  .span{
+    color: black;
+  }
+
+  .hrcolor{
+    position: relative;
+    border: none;
+    height: 5px;
+    background: white;
+  }
+  

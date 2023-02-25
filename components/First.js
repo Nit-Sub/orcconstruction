@@ -21,7 +21,7 @@ const First = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#home">Services</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="#link">Project</Nav.Link>
             <Nav.Link href="#home">Pages</Nav.Link>
             <Nav.Link href="#link">Blog</Nav.Link>
