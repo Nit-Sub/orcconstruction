@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 6rem;
-    background-image: url("../public/static/backgroundimage.png");
+    /* background-image: url("../public/static/backgroundimage.png"); */
+    background-image: url("../public/static/blog01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
