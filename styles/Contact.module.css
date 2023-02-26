@@ -1,94 +1,132 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    padding: 6rem;
-    min-height: 100vh;
-    background-image: url("../public/static/backgroundimage.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 6rem;
+  min-height: 100vh;
+  background-image: url("../public/static/backgroundimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 
 }
-.image{
-    width: 350px;
-    height: 50px;
-    
+
+.image {
+  width: 350px;
+  height: 50px;
+
 }
 
-.h6{
-    color: white;
-    margin-top: 15px;
+.h6 {
+  color: white;
+  margin-top: 15px;
 }
 
-.h6:before{
-    content:" ";
-    height: 2px;
-    width: 45px;
-    background: white;
-    display: block;
-    position: absolute;
-    top: 35%;
-    left: 50px;
-  }
-  .h6:after{
-    content:" ";
-    height: 2px;
-    width: 45px;
-    background: white;
-    display: block;
-    position: absolute;
-    top: 35%;
-    left: 190px;
-  }
+.h6:before {
+  content: " ";
+  height: 2px;
+  width: 45px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 50px;
+}
 
-  .h1{
-    text-shadow: 10px 10px 10px;
-    color: white;
-  }
-  .span{
-    color: black;
-  }
-  .hrcolor{
-    color: white;
-  }
+.h6:after {
+  content: " ";
+  height: 2px;
+  width: 45px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 190px;
+}
 
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    color: white;
-  }
+.h1 {
+  text-shadow: 10px 10px 10px;
+  color: white;
+}
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    color: white;
-    border: 2px solid orange;
-    box-shadow: 5px 5px 5px white;
-   
+.span {
+  color: black;
+}
 
-  }
-  .font{
-    margin-right: 40px;
-    color: orange;
-    font-size: 40px;
-    
-  }
+.hrcolor {
+  color: white;
+}
 
-  .fontrow{
-    
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+  border: 2px solid orange;
+  box-shadow: 5px 5px 5px white;
+
+
+}
+
+.font {
+  margin-right: 40px;
+  color: orange;
+  font-size: 40px;
+
+}
+
+.fontrow {
+
   justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    color: white;
-   
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+.input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 500px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px;
+}
+.form {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  flex-direction: column;
+  color: white;
+  min-height: 250px;
   
-  }
+}
+.map{
+  margin-left: 50px;
+  margin-top: 20px;
+  
+}
+.office{
+  margin-left: 50px;
+  text-shadow: 2px 2px 2px;
+  margin-top:250px;
+}
+
+.card {
+  border: 2px solid orange;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  min-height: 250px;
+}
