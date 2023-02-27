@@ -34,8 +34,7 @@ const AboutFirm = () => {
                                 <h7 className={styles.h7}>Adam Norman</h7>
                                 <p style={{color:"grey"}}>CEO & Founder</p>
                             </div>
-                            </div>
-                           
+                            </div>                         
                 </div>
                 <div className={styles.column}>
                     <div className={styles.shape}>
