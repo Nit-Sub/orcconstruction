@@ -53,7 +53,7 @@ const project = () => {
                     <p className={styles.psmall}><FontAwesomeIcon icon={fa2} className={styles.font} /> Duisteyerionyer venenatis lacus gravida eros ut turpis interdum.</p>
                     <p className={styles.psmall}><FontAwesomeIcon icon={fa3} className={styles.font} /> Duisteyerionyer venenatis lacus gravida eros ut turpis interdum.</p>
                     <hr className={styles.hrfull} />
-                    <ContactUs/>
+                    <ContactUs />
 
 
 

@@ -5,6 +5,7 @@
     
     padding: 6rem;
     min-height: 100vh;
+  
     /* background-image: url("../public/static/backgroundimage.png"); */
     background-image: url("../public/static/blog01.jpg");
     background-size: cover;
