@@ -12,18 +12,23 @@
     
 }
 .navbar{
+    position: fixed;
     background-color: transparent;
-   position: absolute;
-   
+    position: -webkit-sticky; /* Safari */
+ 
+
     top: 0;
     padding: 15px
+    
     
 
 }
 .navbar:hover{
     color: orange;
 }
-
+.navbaritem:hover{
+color: orange;
+}
 
 
 

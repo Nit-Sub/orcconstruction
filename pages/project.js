@@ -54,15 +54,8 @@ const project = () => {
                     <p className={styles.psmall}><FontAwesomeIcon icon={fa3} className={styles.font} /> Duisteyerionyer venenatis lacus gravida eros ut turpis interdum.</p>
                     <hr className={styles.hrfull} />
                     <ContactUs />
-
-
-
                 </div>
-
-
-
             </main>
-
         </>
     )
 }

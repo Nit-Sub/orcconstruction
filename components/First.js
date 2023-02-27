@@ -21,24 +21,24 @@ const First = () => {
           <Navbar.Toggle aria-controls="navbarScroll" className='right-side' />
           <Image src={logo} className={styles.image} />
           <Navbar.Collapse id="basic-navbar-nav" className='float-right'>
-            <Nav className={styles.navbaritem}>
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="/project">Project</Nav.Link>
+            <Nav >
+              <Nav.Link href="/"><span className={styles.navbaritem}>Home </span></Nav.Link>
+              <Nav.Link href="/about"> <span className={styles.navbaritem}>About </span></Nav.Link>
+              <Nav.Link href="/services"><span className={styles.navbaritem}>Services</span></Nav.Link>
+              <Nav.Link href="/project"><span className={styles.navbaritem}>Project</span></Nav.Link>
               <NavDropdown title="Page" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/team" >Team</NavDropdown.Item>
+                <NavDropdown.Item href="/team" ><span className={styles.navbaritem}>Team</span></NavDropdown.Item>
                 <NavDropdown.Item href="/career" >
-                  Career
+                <span className={styles.navbaritem}>  Career</span>
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Blog" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/blog01" >Blog01</NavDropdown.Item>
+                <NavDropdown.Item href="/blog01" ><span className={styles.navbaritem}>Blog01</span></NavDropdown.Item>
                 <NavDropdown.Item href="/blogpost" >
-                  Blog post
+                <span className={styles.navbaritem}> Blog post</span>
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/contact"><span className={styles.navbaritem}>Contact</span></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

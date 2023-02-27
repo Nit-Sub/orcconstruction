@@ -6,12 +6,20 @@
     padding: 6rem;
     min-height: 100vh;
   
-    /* background-image: url("../public/static/backgroundimage.png"); */
-    background-image: url("../public/static/blog01.jpg");
+    
+    background-image: url("../public/static/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    transition: 5s;
+    background-color: aliceblue;
 
+}
+
+.description{
+  margin-top: 100px;
+  margin-left: 80px;
+  font-size: 15px;
+  
 }
 
 
@@ -25,24 +33,18 @@
 .p:before{
   content:" ";
   height: 2px;
-  width: 98px;
-  background: white;
+  width: 48px;
+  background: orange;
   display: block;
   position: absolute;
-  top: 50%;
-  left: 0;
+  top: 13rem;
+  left: 8rem;
 }
 .h1{
   color: white;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: -14px;
-  text-shadow: 2px 2px 5px;
+  font-size: 60px;
+}
 
-}
-.span{
-  color: gray;
-}
 .button{
   margin-left: 20px;
   margin-top: 30px;
