@@ -10,6 +10,7 @@ import ContactUs from '@/components/ContactUs';
 import CrossFade from '@/components/CrossFade';
 import AboutFirm from '@/components/AboutFirm';
 import OurService from '@/components/OurService';
+import ScrollEffect from '@/components/ScrollEffect';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,6 +37,8 @@ export default function Home() {
       <div>
        <AboutFirm/>
        <OurService/>
+       <ScrollEffect/>
+       
       </div>
 
     </>
