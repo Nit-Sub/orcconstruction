@@ -14,7 +14,7 @@ import { faLocation } from '@fortawesome/free-solid-svg-icons';
 const contact = () => {
   return (<>
    
-      <div className={styles.row}>
+      {/* <div className={styles.row}>
       <div className={styles.column}>
         <h4>Contact Information</h4>
         <p>Contact nullam usamcoen the drana duru metus utah osare asya
@@ -40,7 +40,7 @@ const contact = () => {
         </div>
 
       </div>
-      
+       */}
    
 
   </>

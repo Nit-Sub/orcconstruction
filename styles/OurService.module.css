@@ -14,3 +14,33 @@
     background-color: #F5F5F5;
 
 }
+.p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif;
+    color: #555;
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+.h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    line-height: 1.25em;
+    color: #000;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.p:before{
+    content:" ";
+    height: 1px;
+    width: 39px;
+    background: orangered;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 0rem;
+  }
+  

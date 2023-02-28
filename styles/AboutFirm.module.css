@@ -66,12 +66,12 @@
   .p:before{
     content:" ";
     height: 2px;
-    width: 48px;
+    width: 40px;
     background: orange;
     display: block;
     position: absolute;
-    top: 49.8rem;
-    left: 7.4rem;
+    top: 49.4rem;
+    left: 8rem;
   }
   .h1{
     margin-top: -10px;
@@ -137,7 +137,7 @@
   background: orangered;
   display: block;
   position: absolute;
-  top: 74.7rem;
+  top: 74.201rem;
   left: 8.4rem;
 
 }
