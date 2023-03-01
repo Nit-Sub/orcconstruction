@@ -33,11 +33,14 @@ export default function Home() {
 
 
 
+
+
       </main>
       <div>
        <AboutFirm/>
        <OurService/>
        <ScrollEffect/>
+       
        
       </div>
 

@@ -1,34 +1,94 @@
-.section{
-    min-height: 100vh;
-    padding: 50px;
+.main{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-    transform-style: preserve-3d;
-}
-.wrapperouter{
-height: 100vh;
-overflow: hidden;    
-}
-.wrapper{
-    height: 100%;
-    overflow-x: hidden;
-    perspective: 1px;
-}
-.parallaxbg{
-    background-image: url("../public/static/about.jpg");
-    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 6rem;
+    min-height: 100vh;
+  
+    
+    background-image: linear-gradient(rgba(48, 46, 46, 0.5), rgba(1, 1, 1, 0.5)),url("../public/static/about.jpg");
     background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: center center;
-    z-index: -1;
-    min-height: 100%;
-    transform: translate3d(0,0,-1px) scale(2);
+    background-repeat: no-repeat;
+    background-color: transparent;
     
 }
+.description{
+    color: #fff;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    line-height: 1.5em;
+    margin: 0 0 15px 0;
+    height: 250px;
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 260px;
+
+    
+}
+
+.h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25em;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+}
+.p{
+    font-family: 'Didact Gothic', sans-serif;
+    color: #fff;
+}
+
+.icon{
+    font-size: 30px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #ed5521;
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 2;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px transparent
+}
+.h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.span{
+    color: orangered;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.icon:hover {
+    background-color: transparent;
+    cursor: pointer;
+} 
+.font{
+    margin-left: 70px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+   
+
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+    
+     }
