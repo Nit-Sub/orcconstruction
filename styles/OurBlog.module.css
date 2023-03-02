@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+
+}
+.p{
+    color: grey;
+}
+
+.h1{
+    color: #000;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.h1:hover{
+    color: orangered;
+}
+.p:before{
+    content:" ";
+    height: 1px;
+    width: 39px;
+    background: orangered;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    left: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin-bottom: 40px;
+
+}

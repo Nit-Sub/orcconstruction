@@ -15,6 +15,10 @@ import Ourproject from '@/components/Ourproject';
 import OurCoreValue from '@/components/OurCoreValue';
 import image from "@/public/static/5.jpg"
 import image1 from "@/public/static/6.jpg"
+import OurTeam from '@/components/OurTeam';
+import HappyClient from '@/components/HappyClient';
+import OurBlog from '@/components/OurBlog'
+
 
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
@@ -43,6 +47,9 @@ export default function Home() {
        n dissen potenti seden laorien ultricies magna, in dignissim justo porta eget mis
        s vention ormana the miss drana on the tenis vitae mollie." image={image1} />
        <OurCoreValue/>
+       <OurTeam/>
+       <HappyClient/>
+       <OurBlog/>
       </div>
     </>
   )

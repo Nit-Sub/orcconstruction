@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    width: 350px;
+    height: 400px;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+}
+
+.shape {
+    background-color: orangered;
+    width: 250px;
+    margin-left: 45px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 2px orangered;
+    font-family: 'Syne', sans-serif;
+   
+}
