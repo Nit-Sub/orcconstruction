@@ -49,7 +49,7 @@ const Video = () => {
         </main>
        <div className={styles.footers}>
             <div className={styles.logo}>
-            <FontAwesomeIcon icon={faRotateRight} className='mx-10'/>
+            <FontAwesomeIcon icon={faRotateRight} />
             <FontAwesomeIcon icon={faRotateLeft}/>
             <FontAwesomeIcon icon={faHand}/>
             <FontAwesomeIcon icon={faHandshake}/>
