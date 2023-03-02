@@ -18,6 +18,7 @@ import image1 from "@/public/static/6.jpg"
 import OurTeam from '@/components/OurTeam';
 import HappyClient from '@/components/HappyClient';
 import OurBlog from '@/components/OurBlog'
+import Video from '@/components/Video';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -50,6 +51,7 @@ export default function Home() {
        <OurTeam/>
        <HappyClient/>
        <OurBlog/>
+       <Video/>
       </div>
     </>
   )

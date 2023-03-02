@@ -12,7 +12,6 @@ const TeamCard = ({image , name }) => {
                         {name}
                     </h3>
                 </div>
-            
    </>
   )
 }
