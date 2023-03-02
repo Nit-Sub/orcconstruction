@@ -1,0 +1,35 @@
+.card {
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.icon {
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    background-color: orangered;
+    height: 40px;
+    width: 40px;
+    padding: .5rem;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.title {
+    margin-left: -260px;
+
+}
+
+.p {
+
+margin-left: 20px;
+
+}
