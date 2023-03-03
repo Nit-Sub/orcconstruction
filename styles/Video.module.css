@@ -94,12 +94,19 @@
 .footers{
     background-color: orangered;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+
 }
 .logo{
     color: white;
-    font-size: 50px;
-    
-    
+    font-size: 40px;
+    margin-left: 100px;
+
 }
 
 .h6:before {

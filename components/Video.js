@@ -40,22 +40,29 @@ const Video = () => {
                             </div>
 
                         </div>
-                        
+
                     </div>
 
                 </div>
             </div>
-          
+
         </main>
-       <div className={styles.footers}>
+        <div className={styles.footers}>
             <div className={styles.logo}>
-            <FontAwesomeIcon icon={faRotateRight} />
-            <FontAwesomeIcon icon={faRotateLeft}/>
-            <FontAwesomeIcon icon={faHand}/>
-            <FontAwesomeIcon icon={faHandshake}/>
+                <FontAwesomeIcon icon={faRotateRight} />
             </div>
-       </div>
-        </>
+            <div className={styles.logo}>
+                <FontAwesomeIcon icon={faRotateLeft} />
+            </div>
+            <div className={styles.logo}>
+                <FontAwesomeIcon icon={faHand} />
+            </div>
+            <div className={styles.logo}>
+                <FontAwesomeIcon icon={faHandshake} />
+            </div>
+
+        </div>
+    </>
     )
 }
 

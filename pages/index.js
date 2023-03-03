@@ -19,6 +19,7 @@ import OurTeam from '@/components/OurTeam';
 import HappyClient from '@/components/HappyClient';
 import OurBlog from '@/components/OurBlog'
 import Video from '@/components/Video';
+import Footer from '@/components/Footer';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -52,6 +53,7 @@ export default function Home() {
        <HappyClient/>
        <OurBlog/>
        <Video/>
+       <Footer/>
       </div>
     </>
   )
