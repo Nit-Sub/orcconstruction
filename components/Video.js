@@ -9,7 +9,6 @@ import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import comment2 from "@/public/static/comment2.jpg";
 
-
 const Video = () => {
     return (<>
         <main className={styles.main}>
@@ -31,21 +30,15 @@ const Video = () => {
                         <div className={styles.row}>
                             <div className={styles.column}>
                                 <Image src={comment2} alt="Image" className={styles.comment2} />
-
                             </div>
                             <div className={styles.column}>
                                 <h6 className={styles.author}>Jason Brown</h6>
                                 <p className={styles.location}>Hollywood Hills, CA</p>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </main>
         <div className={styles.footers}>
             <div className={styles.logo}>
@@ -60,7 +53,6 @@ const Video = () => {
             <div className={styles.logo}>
                 <FontAwesomeIcon icon={faHandshake} />
             </div>
-
         </div>
     </>
     )

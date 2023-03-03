@@ -5,7 +5,6 @@ import { faPenRuler } from '@fortawesome/free-solid-svg-icons';
 import { faMessage } from '@fortawesome/free-solid-svg-icons';
 import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 
-
 const HappyClient = () => {
     return (
         <main className={styles.main}>
@@ -25,7 +24,6 @@ const HappyClient = () => {
                         <ClientCard font={faTrophy} count="550" number="0.3" name="Completed Project" />
                     </div>
                 </div>
-
             </div>
         </main>
     )

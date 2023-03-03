@@ -15,32 +15,31 @@ const AboutFirm = () => {
                         spendisse potenti sed leonra main dignissim justo porta eget. Curabitur
                         luctus magna numsaton vivention esellentesue the miss tenis vitae mollie.</p>
                     <p className={styles.paragraph}>Curabitur luctus magna numsaton vivention esellentesue the mis awa vitan sedeonra magnain dignissim porta.</p>
-
                     <ul class={styles.ul}>
-                                <li className={styles.li}>Our 25 years of experience.</li>
-                            </ul> 
-                            <ul class={styles.ul}>
-                                <li className={styles.li}>100+ sucessfully executed projects.</li>
-                            </ul>
-                            <ul class={styles.ul}>
-                                <li className={styles.li}>Exceptional work quality.</li>
-                            </ul>
-                            <hr className={styles.hr}/>
-                            <div className='row'>
-                                <div className='col-sm-2'>
-                            <Image src={sign} alt='sign' width={80}/>
-                            </div>
-                            <div className='col-sm-4' >
-                                <h7 className={styles.h7}>Adam Norman</h7>
-                                <p style={{color:"grey"}}>CEO & Founder</p>
-                            </div>
-                            </div>                         
+                        <li className={styles.li}>Our 25 years of experience.</li>
+                    </ul>
+                    <ul class={styles.ul}>
+                        <li className={styles.li}>100+ sucessfully executed projects.</li>
+                    </ul>
+                    <ul class={styles.ul}>
+                        <li className={styles.li}>Exceptional work quality.</li>
+                    </ul>
+                    <hr className={styles.hr} />
+                    <div className='row'>
+                        <div className='col-sm-2'>
+                            <Image src={sign} alt='sign' width={80} />
+                        </div>
+                        <div className='col-sm-4' >
+                            <h7 className={styles.h7}>Adam Norman</h7>
+                            <p style={{ color: "grey" }}>CEO & Founder</p>
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.column}>
                     <div className={styles.shape}>
                         <Image src={about} className={styles.image} />
                         <p className={styles.pshape}>
-                            
+
 
                         </p>
 

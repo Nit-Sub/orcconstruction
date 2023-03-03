@@ -48,12 +48,12 @@ export default function Home() {
         <Ourproject title="Residential Construction " belowtitle="in Los Altos, CA" paragraph="Construction elibero tristique mattis suspe
        n dissen potenti seden laorien ultricies magna, in dignissim justo porta eget mis
        s vention ormana the miss drana on the tenis vitae mollie." image={image1} />
-       <OurCoreValue/>
-       <OurTeam/>
-       <HappyClient/>
-       <OurBlog/>
-       <Video/>
-       <Footer/>
+        <OurCoreValue />
+        <OurTeam />
+        <HappyClient />
+        <OurBlog />
+        <Video />
+        <Footer />
       </div>
     </>
   )

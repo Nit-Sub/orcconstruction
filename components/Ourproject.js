@@ -23,18 +23,12 @@ const Ourproject = ({title , belowtitle , paragraph, image}) => {
                 <p style={{color:"grey"} } className="mx-3">{paragraph}</p>
                    <hr className={styles.hr} style={{width:"330px"}}/>
                    <p style={{color:"grey"}} ><FontAwesomeIcon icon={faBuilding} className={styles.icon}/> Renovation</p>
-
               </div>
-
             </div>
-            
           </div>
 </div>
-        
-
       </main>
     </>
   )
 }
-
 export default Ourproject

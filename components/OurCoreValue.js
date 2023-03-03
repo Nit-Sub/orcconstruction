@@ -45,13 +45,7 @@ const OurCoreValue = () => {
                 projects. Fusce tidunt
                 nis ace park norttito amet space"/>
                         </div>
-
-
                     </div>
-
-
-
-
                 </div>
             </main>
         </>

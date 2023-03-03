@@ -8,15 +8,50 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.ul{
+
+.ul {
     color: orangered;
 }
-.pt{
+
+.pt {
     color: white;
     margin-bottom: -5px;
+    cursor: pointer;
 }
-.pt:hover{
+
+.pt:hover {
     color: orangered;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    height: 60px;
+
+
+}
+
+.input {
+    margin-top: 15px;
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.endfooter {
+    color: white;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: orangered;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-left: 30px;
+
 }
 
 .hr {
@@ -46,23 +81,27 @@
 
 
 }
-.footericon{
-    background-color: orangered;  
+
+.footericon {
+    background-color: orangered;
     width: 40px;
     height: 50px;
     padding: 10px 10px 10px 10px;
     margin-top: -100px;
 }
-.p{
+
+.p {
     color: #ccc;
     margin-top: 10px;
 }
-.h3{
+
+.h3 {
     font-size: 21px;
     display: inline-block;
     position: relative;
     color: #fff;
 }
+
 .rows {
     display: flex;
     flex-direction: row;
@@ -73,7 +112,7 @@
 
 }
 
-.columnfooter{
+.columnfooter {
 
     display: flex;
     flex-direction: column;

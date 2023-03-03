@@ -29,7 +29,9 @@
 .navbaritem:hover{
 color: orange;
 }
-
+.navbaritem{
+        color: black;    
+}
 
 
 
