@@ -26,7 +26,7 @@ const First = () => {
                   <span className={styles.navbaritem}>  Career</span>
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Blog" id="basic-nav-dropdown">
+              <NavDropdown title="Blog" id="basic-nav-dropdown" >
                 <NavDropdown.Item href="/blog01" ><span className={styles.navbaritem}>Blog01</span></NavDropdown.Item>
                 <NavDropdown.Item href="/blogpost" >
                   <span className={styles.navbaritem}> Blog post</span>
