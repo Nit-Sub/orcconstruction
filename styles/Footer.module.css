@@ -8,6 +8,16 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.ul{
+    color: orangered;
+}
+.pt{
+    color: white;
+    margin-bottom: -5px;
+}
+.pt:hover{
+    color: orangered;
+}
 
 .hr {
     color: grey;

@@ -50,11 +50,12 @@ const Footer = () => {
                     </div>
                     <div className={styles.column}>
                         <h3 className={styles.h3}>Quick Links</h3>
-                        <ul>
-                            <li >About</li>
-                            <li>Service</li>
-                            <li>Project</li>
-                            <li>Blog</li>
+                        <ul className={styles.ul}>
+                            <li ><p className={styles.pt}>About </p></li>
+                            <li> <p className={styles.pt}>Service</p></li>
+                            <li> <p className={styles.pt}>Project</p></li>
+                            <li> <p className={styles.pt}>Blog</p></li>
+                            
                         </ul>
                     </div>
                     <div className={styles.column}>A </div>
